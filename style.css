@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:brown;
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+
+}
+
+h1 {
+    margin: 45px;
+}
+
+.add-element {
+    margin: 15px;
+}
+
+input {
+    padding: 5px 3px;
+    width: 80%;
+}
+
+button {
+    padding: 8px 16px;
+    background-color:cornsilk;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.element-list {
+    height: 600px;
+    overflow-y: auto;
+
+}
+
+ul {
+    padding: 18px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 6px;
+    background-color:white;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+button:hover {
+    background-color:skyblue;
+}
+
+li:hover {
+    background-color:steelblue;
+}
+
+.checked {
+    text-decoration: line-through ;
+}
+
+.doing-list {
+
+}
+
+.container-doing{
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+.container-done {
+    background-color:cadetblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    width: 600px;
+    height: 800px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+
+}
+
+.done-list {
+    text-decoration: line-through;
+}
+
